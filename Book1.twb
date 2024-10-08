@@ -1,0 +1,1542 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
+    <ZoneFriendlyName />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Software_Development_Bugs (Software_Development_Bugs)' inline='true' name='federated.03cjc4i0gwmbzw1a7l2o30npg5fs' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Software_Development_Bugs' name='excel-direct.03lcvdc19hhy8d16a5cvw1xmlbji'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/stopc/Downloads/Software_Development_Bugs.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.03lcvdc19hhy8d16a5cvw1xmlbji' name='Software_Development_Bugs' table='[Software_Development_Bugs$]' type='table'>
+          <columns gridOrigin='A1:M749:no:A1:M749:0' header='yes' outcome='2'>
+            <column datatype='string' name='Groups' ordinal='0' />
+            <column datatype='string' name='Sub groups' ordinal='1' />
+            <column datatype='string' name='Assigned Teams' ordinal='2' />
+            <column datatype='string' name='Assigned To' ordinal='3' />
+            <column datatype='string' name='Category I' ordinal='4' />
+            <column datatype='string' name='Category II' ordinal='5' />
+            <column datatype='string' name='Fix for' ordinal='6' />
+            <column datatype='integer' name='ID' ordinal='7' />
+            <column datatype='date' name='DateOpened' ordinal='8' />
+            <column datatype='string' name='Priority' ordinal='9' />
+            <column datatype='string' name='Record Status' ordinal='10' />
+            <column datatype='real' name='DaysCurrEst' ordinal='11' />
+            <column datatype='real' name='DaysOrigEst' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.03lcvdc19hhy8d16a5cvw1xmlbji' name='Software_Development_Bugs' table='[Software_Development_Bugs$]' type='table'>
+          <columns gridOrigin='A1:M749:no:A1:M749:0' header='yes' outcome='2'>
+            <column datatype='string' name='Groups' ordinal='0' />
+            <column datatype='string' name='Sub groups' ordinal='1' />
+            <column datatype='string' name='Assigned Teams' ordinal='2' />
+            <column datatype='string' name='Assigned To' ordinal='3' />
+            <column datatype='string' name='Category I' ordinal='4' />
+            <column datatype='string' name='Category II' ordinal='5' />
+            <column datatype='string' name='Fix for' ordinal='6' />
+            <column datatype='integer' name='ID' ordinal='7' />
+            <column datatype='date' name='DateOpened' ordinal='8' />
+            <column datatype='string' name='Priority' ordinal='9' />
+            <column datatype='string' name='Record Status' ordinal='10' />
+            <column datatype='real' name='DaysCurrEst' ordinal='11' />
+            <column datatype='real' name='DaysOrigEst' ordinal='12' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:M749:no:A1:M749:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Groups</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Groups]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>Groups</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub groups</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sub groups]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>Sub groups</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assigned Teams</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Assigned Teams]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>Assigned Teams</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Assigned To</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Assigned To]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>Assigned To</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category I</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category I]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>Category I</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category II</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category II]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>Category II</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fix for</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Fix for]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>Fix for</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ID]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>ID</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateOpened</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[DateOpened]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>DateOpened</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Priority</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Priority]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>Priority</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Record Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Record Status]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>Record Status</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DaysCurrEst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DaysCurrEst]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>DaysCurrEst</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DaysOrigEst</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DaysOrigEst]</local-name>
+            <parent-name>[Software_Development_Bugs]</parent-name>
+            <remote-alias>DaysOrigEst</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Assigned Teams]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Assigned To]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Calculation1]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK_PERCENTILE(COUNT([__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Date Opened' datatype='date' name='[DateOpened]' role='dimension' type='ordinal' />
+      <column caption='Days Curr Est' datatype='real' name='[DaysCurrEst]' role='measure' type='quantitative' />
+      <column caption='Days Orig Est' datatype='real' name='[DaysOrigEst]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Groups]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Priority]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Software_Development_Bugs' datatype='table' name='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' role='measure' type='quantitative' />
+      <column-instance column='[Assigned Teams]' derivation='None' name='[none:Assigned Teams:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Priority]' derivation='None' name='[none:Priority:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Assigned Teams)' hidden='true' name='[Action (Assigned Teams)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Assigned Teams]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Assigned Teams,Assigned To,Groups)' hidden='true' name='[Action (Assigned Teams,Assigned To,Groups)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Assigned Teams]' />
+          <groupfilter function='level-members' level='[Assigned To]' />
+          <groupfilter function='level-members' level='[Groups]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Priority)' hidden='true' name='[Action (Priority)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Priority]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Assigned Teams:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Dev&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;QA&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Presales&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Techpubs&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;PM&apos;s&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Support&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Field Services&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Priority:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;P0&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;P4&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;P3&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;P1&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Software_Development_Bugs' id='Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D'>
+            <properties context=''>
+              <relation connection='excel-direct.03lcvdc19hhy8d16a5cvw1xmlbji' name='Software_Development_Bugs' table='[Software_Development_Bugs$]' type='table'>
+                <columns gridOrigin='A1:M749:no:A1:M749:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Groups' ordinal='0' />
+                  <column datatype='string' name='Sub groups' ordinal='1' />
+                  <column datatype='string' name='Assigned Teams' ordinal='2' />
+                  <column datatype='string' name='Assigned To' ordinal='3' />
+                  <column datatype='string' name='Category I' ordinal='4' />
+                  <column datatype='string' name='Category II' ordinal='5' />
+                  <column datatype='string' name='Fix for' ordinal='6' />
+                  <column datatype='integer' name='ID' ordinal='7' />
+                  <column datatype='date' name='DateOpened' ordinal='8' />
+                  <column datatype='string' name='Priority' ordinal='9' />
+                  <column datatype='string' name='Record Status' ordinal='10' />
+                  <column datatype='real' name='DaysCurrEst' ordinal='11' />
+                  <column datatype='real' name='DaysOrigEst' ordinal='12' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.03cjc4i0gwmbzw1a7l2o30npg5fs'>
+      <datasources>
+        <datasource caption='Software_Development_Bugs (Software_Development_Bugs)' name='federated.03cjc4i0gwmbzw1a7l2o30npg5fs' />
+      </datasources>
+      <datasource-dependencies datasource='federated.03cjc4i0gwmbzw1a7l2o30npg5fs'>
+        <column datatype='string' name='[Assigned To]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Groups]' role='dimension' type='nominal' />
+        <column-instance column='[Assigned To]' derivation='None' name='[none:Assigned To:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Groups]' derivation='None' name='[none:Groups:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams)]'>
+        <groupfilter function='level-members' level='[Assigned Teams]' user:ui-action-filter='[Action1_3A35F727AAC0424AA4A319CFA644D5FA]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Priority)]'>
+        <groupfilter function='level-members' level='[Priority]' user:ui-action-filter='[Action2_4B0F2DA1F52B4373B92B74D1428C76E8]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned To:nk]'>
+        <groupfilter function='level-members' level='[none:Assigned To:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Groups:nk]'>
+        <groupfilter function='level-members' level='[none:Groups:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_3A35F727AAC0424AA4A319CFA644D5FA]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Software Bugs Interative Dashboard' type='sheet' worksheet='Number of Bugs Assigned to each Employee in every Group and Assigned Team' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Software Bugs Interative Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_4B0F2DA1F52B4373B92B74D1428C76E8]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Software Bugs Interative Dashboard' type='sheet' worksheet='Percent of Bugs in each Priority Level' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Software Bugs Interative Dashboard' />
+      </command>
+    </action>
+    <action caption='Filter 3 (generated)' name='[Action3_81D7082083E54054B9BE94D436C71510]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Software Bugs Interative Dashboard' type='sheet' worksheet='Number of Bugs/Defects by Assigned Team' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Software Bugs Interative Dashboard' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Number of Bugs Assigned to each Employee in every Group and Assigned Team'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Times New Roman'>Number of Bugs/Defects by Assigned Team</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Software_Development_Bugs (Software_Development_Bugs)' name='federated.03cjc4i0gwmbzw1a7l2o30npg5fs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03cjc4i0gwmbzw1a7l2o30npg5fs'>
+            <column datatype='string' name='[Assigned Teams]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Assigned To]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Groups]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Software_Development_Bugs' datatype='integer' name='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Priority]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Software_Development_Bugs' datatype='table' name='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assigned Teams]' derivation='None' name='[none:Assigned Teams:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Assigned To]' derivation='None' name='[none:Assigned To:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Groups]' derivation='None' name='[none:Groups:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams,Assigned To,Groups)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_81D7082083E54054B9BE94D436C71510]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Assigned Teams]' />
+              <groupfilter function='level-members' level='[Assigned To]' />
+              <groupfilter function='level-members' level='[Groups]' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]'>
+            <groupfilter function='level-members' level='[none:Assigned Teams:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Priority)]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams,Assigned To,Groups)]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams)]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Groups:nk]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned To:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' scope='rows' value='' />
+            <format attr='auto-subtitle' class='0' field='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' scope='rows' value='true' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]' />
+              <text column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]</rows>
+        <cols>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]</cols>
+      </table>
+      <simple-id uuid='{E3A32476-83D3-46DF-9C72-C39CB0192A7B}' />
+    </worksheet>
+    <worksheet name='Number of Bugs/Defects by Assigned Team'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Times New Roman'>Number of Bugs Assigned to each Employee in every Group and Assigned Team</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Software_Development_Bugs (Software_Development_Bugs)' name='federated.03cjc4i0gwmbzw1a7l2o30npg5fs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03cjc4i0gwmbzw1a7l2o30npg5fs'>
+            <column datatype='string' name='[Assigned Teams]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Assigned To]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Groups]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Software_Development_Bugs' datatype='integer' name='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Priority]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Software_Development_Bugs' datatype='table' name='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Assigned Teams]' derivation='None' name='[none:Assigned Teams:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Assigned To]' derivation='None' name='[none:Assigned To:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Groups]' derivation='None' name='[none:Groups:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <slices>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams)]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Priority)]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Groups:nk]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned To:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' scope='rows' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]' />
+              <text column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]</rows>
+        <cols>([federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Groups:nk] / ([federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk] / [federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned To:nk]))</cols>
+      </table>
+      <simple-id uuid='{A0FBF8A2-F7D6-4C89-A515-ED811875D8C0}' />
+    </worksheet>
+    <worksheet name='Percent of Bugs in each Priority Level'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Times New Roman'>Percent of Bugs in each Priority Level</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Software_Development_Bugs (Software_Development_Bugs)' name='federated.03cjc4i0gwmbzw1a7l2o30npg5fs' />
+          </datasources>
+          <datasource-dependencies datasource='federated.03cjc4i0gwmbzw1a7l2o30npg5fs'>
+            <column datatype='string' name='[Assigned Teams]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Assigned To]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Groups]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.false...column caption='Software_Development_Bugs' datatype='integer' name='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Priority]' role='dimension' type='nominal' />
+            <_.fcp.ObjectModelTableType.true...column caption='Software_Development_Bugs' datatype='table' name='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D]' derivation='Count' name='[__tableau_internal_object_id__].[pcto:cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Assigned To]' derivation='None' name='[none:Assigned To:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Groups]' derivation='None' name='[none:Groups:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Priority]' derivation='None' name='[none:Priority:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams,Assigned To,Groups)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action3_81D7082083E54054B9BE94D436C71510]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Assigned Teams]' />
+              <groupfilter function='level-members' level='[Assigned To]' />
+              <groupfilter function='level-members' level='[Groups]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams)]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams,Assigned To,Groups)]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Priority)]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Groups:nk]</column>
+            <column>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned To:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' scope='rows' value='' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Priority:nk]' />
+              <text column='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[pcto:cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[__tableau_internal_object_id__].[cnt:Software!Development!Bugs_E419CC14A17046A4902C38A17FAFD01D:qk]</rows>
+        <cols>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Priority:nk]</cols>
+      </table>
+      <simple-id uuid='{8596E1EC-168E-46E4-88FB-52BB9A0A8115}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Software Bugs Interative Dashboard'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Bold'>Software Development Bugs</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Software_Development_Bugs (Software_Development_Bugs)' name='federated.03cjc4i0gwmbzw1a7l2o30npg5fs' />
+      </datasources>
+      <datasource-dependencies datasource='federated.03cjc4i0gwmbzw1a7l2o30npg5fs'>
+        <column datatype='string' name='[Assigned To]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Groups]' role='dimension' type='nominal' />
+        <column-instance column='[Assigned To]' derivation='None' name='[none:Assigned To:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Groups]' derivation='None' name='[none:Groups:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49000' id='26' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='5125' id='27' type-v2='title' w='98400' x='800' y='1000'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='43875' id='20' param='horz' type-v2='layout-flow' w='98400' x='800' y='6125'>
+              <zone h='43875' id='18' type-v2='layout-basic' w='98400' x='800' y='6125'>
+                <zone h='43875' id='16' param='horz' type-v2='layout-flow' w='98400' x='800' y='6125'>
+                  <zone h='43875' id='14' type-v2='layout-basic' w='98400' x='800' y='6125'>
+                    <zone h='43875' id='11' name='Number of Bugs/Defects by Assigned Team' w='98400' x='800' y='6125'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='49000' id='28' param='horz' type-v2='layout-flow' w='65900' x='33300' y='50000'>
+            <zone h='49000' id='9' name='Number of Bugs Assigned to each Employee in every Group and Assigned Team' w='49900' x='33300' y='50000'>
+              <layout-cache cell-count-w='7' minheight='198' non-cell-size-w='30' type-h='scalable' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='160' friendly-name='Filters' h='49000' id='19' is-fixed='true' layout-strategy-id='distribute-evenly' param='vert' type-v2='layout-flow' w='16000' x='83200' y='50000'>
+              <zone h='12250' id='21' mode='dropdown' name='Number of Bugs Assigned to each Employee in every Group and Assigned Team' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Priority)]' type-v2='filter' values='database' w='16000' x='83200' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12250' id='23' mode='dropdown' name='Number of Bugs/Defects by Assigned Team' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Groups:nk]' type-v2='filter' values='database' w='16000' x='83200' y='62250'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='12250' id='22' mode='dropdown' name='Number of Bugs/Defects by Assigned Team' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams)]' type-v2='filter' values='database' w='16000' x='83200' y='74500'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='43' h='12250' id='24' is-fixed='true' mode='dropdown' name='Number of Bugs/Defects by Assigned Team' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned To:nk]' type-v2='filter' values='database' w='16000' x='83200' y='86750'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='49000' id='29' param='horz' type-v2='layout-flow' w='32500' x='800' y='50000'>
+            <zone h='49000' id='3' name='Percent of Bugs in each Priority Level' w='32500' x='800' y='50000'>
+              <layout-cache cell-count-w='4' minheight='179' non-cell-size-w='30' type-h='scalable' type-w='cell' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Bold'>Software Development Bugs</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1200' minheight='1200' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='34' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='5125' id='27' type-v2='title' w='98400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12250' id='23' mode='dropdown' name='Number of Bugs/Defects by Assigned Team' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Groups:nk]' type-v2='filter' values='database' w='16000' x='83200' y='62250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12250' id='22' mode='dropdown' name='Number of Bugs/Defects by Assigned Team' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Assigned Teams)]' type-v2='filter' values='database' w='16000' x='83200' y='74500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='43' h='12250' id='24' mode='dropdown' name='Number of Bugs/Defects by Assigned Team' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned To:nk]' type-v2='filter' values='database' w='16000' x='83200' y='86750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='43875' id='11' is-fixed='true' name='Number of Bugs/Defects by Assigned Team' w='98400' x='800' y='6125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Percent of Bugs in each Priority Level' w='32500' x='800' y='50000'>
+                  <layout-cache cell-count-w='4' minheight='179' non-cell-size-w='30' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='12250' id='21' mode='dropdown' name='Number of Bugs Assigned to each Employee in every Group and Assigned Team' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[Action (Priority)]' type-v2='filter' values='database' w='16000' x='83200' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='9' is-fixed='true' name='Number of Bugs Assigned to each Employee in every Group and Assigned Team' w='49900' x='33300' y='50000'>
+                  <layout-cache cell-count-w='7' minheight='198' non-cell-size-w='30' type-h='scalable' type-w='cell' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9517329D-3D01-4921-BC12-8440C2302421}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Percent of Bugs in each Priority Level'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Priority:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]</field>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned To:nk]</field>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Category I:nk]</field>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Category II:nk]</field>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Priority:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{09F8A102-06BC-4105-93D4-8F774AC814F6}' />
+    </window>
+    <window class='worksheet' name='Number of Bugs/Defects by Assigned Team'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]</field>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned To:nk]</field>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Groups:nk]</field>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Priority:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{72C17DA0-C313-4830-A952-2B42907E2177}' />
+    </window>
+    <window class='worksheet' name='Number of Bugs Assigned to each Employee in every Group and Assigned Team'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Assigned Teams:nk]</field>
+            <field>[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Priority:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{A100D055-1F66-49DC-ABB4-6719A3A4CDB8}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Software Bugs Interative Dashboard'>
+      <viewpoints>
+        <viewpoint name='Number of Bugs Assigned to each Employee in every Group and Assigned Team'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Number of Bugs/Defects by Assigned Team'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Percent of Bugs in each Priority Level'>
+          <zoom type='entire-view' />
+          <highlight field='[federated.03cjc4i0gwmbzw1a7l2o30npg5fs].[none:Priority:nk]'>
+            <bucket-selection />
+          </highlight>
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{22DBD937-7CAC-4846-BE41-2469F8FDC3EE}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Number of Bugs Assigned to each Employee in every Group and Assigned Team' width='192'>
+      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
+      taeUAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Number of Bugs/Defects by Assigned Team' width='192'>
+      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
+      ETUAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Percent of Bugs in each Priority Level' width='192'>
+      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
+      QIymAMRo/wNOdD0pmykPiAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Software Bugs Interative Dashboard' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nOydeXxcSXXvv923971bS2u1ZMuybNnyvswCjGcGGGaGIQzJEEjCkkAehBAg
+      75OXkAfJIyQEeC+QhEASlgAJBAJhYDaYDc94Fo/t8djyIsvad7V63/v2cvv2fX+01OqWZFve
+      ZsH9+3z0+ehWV506VadOVZ1zqu5VKYqiUEUV1ynUrzQDVVTxSqKqAFVc16gqQBXXNaoKUMV1
+      jaoCXAP8xz/9Dbfffjt/+8//uey37375k+y57Z0cffZhvv7fT15xXYGho+zfv5+33P12Hvjl
+      4VWXCw0e5Nc++GdXXH8F4tP8waf+X+lx+uSz7N+/n9tufxNf+/5DV7euqwTNK83ArxwkP1/8
+      ys944vAvySbixH0TfPRjf0ze3Mzf/un7+PQX/5XmbXfzD3/3eQ71RxCyn+LU2Vk+fHcP//r4
+      OT78lk28GDASPP4zHjs8wB9+8q/RzhxlJAKKpZGG/Cjffeh5/uLz/8Drt68nmwxjX7+P733h
+      o+y/5U5uPHKMf/4/n6B3KslXv/ZlPv/Z/8e/fOWv+Ogn/oqP/e5b+ZNPf46b73k/H7ytEQDf
+      xFk+9sd/hrm5h3/6+0/y0Xd9GLGQ5A2//iF67EH+7f6D+ENxtnY2MexX+MF3v8zn//RjRfr/
+      +g2+/OmPkpPzqOp62FMb5T+//h30Bj3/8BcfQ4wGadq6n3/+s3t587s/y253lnMZNzWhkxg2
+      vYXc6AG+8u8P07H9Bv7Ph+7lI5/4M3B28l///o9oXyZxVVeAqw1tPX/z6d/lN+++nb/79k/5
+      wde/xL53fJy3bnfyX4d9vOP27fzLt7/Fh97/ft79kU/xwd95N+deeIynDj7HnHeKJx97iJb2
+      DaxZ18WOzga++p0fMDcxwkMHX+KOPc381dce5CPvuZvP/d1XK6q11bayrd3IEz/7Mc+M5bi1
+      u5av//AAyYnjPPvMU8T1NXzxL/83d73nIzzw9S8TkYvlvv6lv+EdH/8i250hfvz4IQbGwnz3
+      e9/h21/9AsG5Cbpufhu712i44Tc+gWbqBM//8pFF+t9/kJOnzvFX//gNTjxzP+9/3/vYdPPd
+      /MNffKzE14Gffpe7f/1/8KZfu4ewb5qJuSBzEyP4wn4++3+/w49++jNOvfBzpkfOMBnKsmXT
+      BlQvo7iqCnC1kZhjQjTzf/7qLzh84Bc4HQ76eo9y8uwQNS5XKZtOo2HwzHHGZ0Ps3eDiwb4o
+      d6238oPnZ7l5A3zuH37Enl1bKcyHaT7w4U+weeN6EAMcOzfHG1+/u0QrODfFQz/5Hsc9enZv
+      bMA7PkgEGz0dzbz1zjfwyU/9LW9961uxWEwcfvYZbnrDG1HNjzKHw0Hv0ec5OzSFy+Ukl47z
+      1JOPozHVAmAwGhEEDQaDAY1awGSxVNBH0GExGREEQKMlNj3GibNDJd627N3PZz/7l9z/n99E
+      pVIz2n+Kk+dGAAGhkObQc08Tz4C5vp2PfuDdPPydv2My9vKFpoTPfOYzn3nZarseIGiZGjzF
+      qYEp/vzTf8H+N72ZwNhpHB038IF33oFaBZ3d2+nq6iI8eQ5TfTv7dmzC1djOm/bvw1Lfzo27
+      91JjzKC2NbO5u5vt3Z00tXfidjdwy74tjE7Osnvf6+hYU9zG+Oc8hFMFPveFz9O5sYfOBiPe
+      aJo37L+VXT0bCcQV3vPb93LrrbfimRyhvn0jN+7qQW9y8L73vY+x04fpuOEe3nnHVr7xj9+l
+      tqWZP/nz/43bZaOuqZ1Wdw3tnd3UWPXceOdvsKVpkb7bZWP7jh0IwI4bbmeNTWY6prBtUwcA
+      vrlZpmf9fOJPPsm+3TuZGD5H9/bdbNu+hxt3rKW3b5AzA+N8+P3v4vCRY9x+3wfYv/PlWwVU
+      1UhwFYuI87E/+CJf+ZfPvSy1/fX/+n0O9k7yvj/6c977a7e+LHUuRVUBqriuUbUBqriuUVWA
+      Kq5rVBWgiusav5IKIEsZ/MHIqvJK6Ti9Z85ddR7m5uYumkcp5PEHQpdBXWFm1nPJpXxzXuRL
+      yB/xz5HJX3I11xSr7zNlVTJ4TSmAd3KA973v9wiLIl//x68SFaUV8ylymCceO7Iqmj998FHq
+      XFayiRC/954P8PgvHuBf//3Hqyo7+MKD/Pip06vmfynyUoaHf/EoAGf6zqy+YKHAAw89WHpM
+      hLx86A8+wsGnD3B2aOq8xX7xwE/JXTa3lwklz3988+s8/fQzPPSLX14xufI+A3jyR1/nyLD/
+      sum9po5CNLRt5MMffDf/9KWvcfddb+an//QFdr3tTg4d85DynCZdUHPT+lpybTvwDPfxyU+f
+      4KbtLTz88C9526+9hWNjWf7XJ36PUwd/TjyTI5LWcOal49x06xvRW2toqrGRS4ZJZPR89jOf
+      Z3e7FsfWN3L08AnGxse4cVMra3r28Lq9OwEFn2yn/9kHUW7byje+9mX27L+dw48/zS13vZWj
+      zz+Dw6zBO3YW9w13M9XbD0Y1HS6BBx59hnt/87coUECcn2EPPPIAcf8E0zEBv9fPx/7g/Tz9
+      yE+4/8GHuf2e32Tk9GG2vO4u/B4PNpsV8iJ/99df4MN/8UmsNQ24nRaSngibX1fLF/7mbymo
+      Vayv1VLfvYcDz59EzmbobnExe+4ILw2E8Xs9TJ05zf/4/Xfy0rCfvlMv0Limh8DUIFl9HV/8
+      yz/m8OM/p+OG3Tz8y3MY1Vn+8EPv5/nHH+QnP3uAXfvvYDaQo6vRQio6wxPP9HLrjTtQGtp4
+      6eBz/P4734S+fTcN4lnmNE389k07+e73/ovvfOXLKG09mOLTBH1+rGYtdTvvYuDwM+TTQZR0
+      kns/+pest6b55rf+nYJjPYXwKAkxxxvfsIuZaLbUZ8hp9O5OHvvx97jhzz7IV77yPd705ht5
+      9JfHuPPuO3jh2ecxabKMne3lhrvvpbc/gFGdxSXEefSZXt7xzre/tlYAUFC0dv7od9/GT37+
+      FK1rmsijgbyC2eFiTaObPft2EAxGqG3uYEtnC/5wjA99/I9pdhjYe8ttWDUwPDTE1n2vJ5dJ
+      0dLeRou7BgCDtYY73/ZOZgb7qK93YDCaQGciODfNr9/3Tnbs2sXZswMADB5/lnBSpl6X5vHj
+      Y+zavo2B/gG2b9vKuaFJ1IBFpyZvW8+bbuzCWduC3aQhEE3yR5/4OL7hQbp334AgiwDU1reg
+      pIJYm7uw6IsblTl/mPd86ONoxQDNbY1MDg/iCWfo6lyHWmOkq7UBMa8ACmaXm7t/6x1IgSgO
+      l4tGdx37dmwiJUrUtGygrdFFQZLwzozP16HiT//ne/nPA4NsqdWyY//beeOudsxNm3jPfXcD
+      oNNp0Kg11Lasw6Qp8uTzBfjND/wRt99+By7Zw+a9ryORlPjExz+KWa/ltjffw/987x0cGEzR
+      3VKDvaUb/7ljZDAQjoSpsxu57fb9jE8H2NO9FmdtA5kcCEIeg9HGG/ZuI5OTSYU9FGyNiNEA
+      JouNdU21nOk7V9Fnh59+moyihtg0/TMxtm/v5tzwNNu2djA86QFFRqcG2/o93NjVWGpHdJ7f
+      kaGh11YcQIwGOD44xev37SKZTGIQCozM+DBrNYx6gji0EoraiMZiQ5eL42zpxKEvcG7ci12X
+      R8REd2c7hXyWl46fYvvOrRw9dIQNPbtw6HIcPn4GlVpNz/Y9KGKAcCKPHJ/j2FgIKZfh5q2d
+      6JxNrG1x03/yGDWtG8lFPXgTMppsiKYNW5joO0tH90b6+kcJzw1jstpJZdWsaW0ik0iydecW
+      pjwhtnSuoffMII0NtTQ2NBL2zaAYa/CMnqF1wzYcZj1yTuTUuXE2dzQx6QlitLpIh2dwt3Vw
+      +qVeLFYD7jWdWNVZjs/bMa0tLfgiSbRSFLXRjjEb4PvPjPBHH/wdItODOJrXE5oZpnXDNuZG
+      TpLR1bFj01rO9J5gQ88OPGPnsLrXUms3MXjmOGIeCqhJJHO8/vX7UOUznDwzzI4dPSSTSawW
+      C8mIn5lQhkLSh6l+DbHpAXR1XWxa1wBALh3n2LGTNHdsRAxMYqpvx6rO4EvIbFrXSP/QFDVO
+      C9//zre44+2/Rc+mDihInB0Yw6pXGJsOY7cKNK5Zj2fWU+qz40efo6PnBgITZ8mgJxkO0d3T
+      w+kzfXStX8fItI+ZwV6sdjtZtYnWJjeJZI6dW9biCWXoaHG+thTglUBBznHsxWN0dG+n1m6+
+      pLIh7xTDs1H27tyK+uU84VUG3/QoM9E8u3q6lv02PDxMZ2fnVa5RYXh4lM7O9ZdUSs4meO7w
+      SW58/evRC1ePG+/UKLPRHDu3blrxeEVVAaq4rrFqGyCff5X5w6qo4ipg1QqQTqevJR9VVPGK
+      4DXmBfrVx/Gjhzg7OLrK3AV6T5wslnvm54wHKiepSOT8wcCzZ/rxzkzwwIOPsJq1vffECQAm
+      Bs/y0pLA4YXqOXO2n0QkwIMP/IxY6mWPQlwUr6k4wPWARDZLbHqWycFe9EYnsUyOdS1Fb8rY
+      8BlsNjt9k0k+9qHfJjI5iKttI6AwMjWLSXyeJ4fOsnHHDmI5DS4hhC+pkJkKoa6xIRgFZMWE
+      Q5tBpXOyuecNuGdmeeBnP8BldfPCiX727egiHI1itdvxDZ/jrvd8BLelAIIRgP6BAaJZFbN9
+      R6ht7qBvOsiWjkYSIT+CUSDmiSOmC8TyeTZvaiYcz9OzuRu3u56hU0fxREV+7a47XsEerkRV
+      AV5laK6rJZ7TsMHVjlZVYCqQRK+RUBkcyLLM2s4ejNYgBWAynGZnmwEln+TG236DQi5Io8OE
+      pa4RW1bCZa2j/6FHWLvhBjZubCWeFkGlQ06F0JiLsY+WllbMZjt6jcDrjVbWtDYhqBVUSDTZ
+      rKhQmBwcYE3XVgC27NiDohTIJKPIaj1bDBZam+o4Pj6AwbSWG96wjWQ4QiSnUGPXYHNSqket
+      5BEsmVeoZ1fGqr1AiUQCq9V6RZXl83k0mqrOXS0kEwksVyiTlbBUTteqnlcDXlYboGpIX11c
+      q0G5VE6/qoMfLlEB+k4eZ3pulQePpDihuMTomeMMTHkvh7dXJfxz0wyOTlSkhUJhvD4vSHFm
+      xr1U1fyVQygUnv8vx9DQ5LLfE8lExfMl7Udq3U1kczF6j80gI2N11RP3jtG0YSdJ7wg+UY1d
+      l0en1iKpJWqatuGurSFb03DZDXq1IZvLAQLDA2fJKlrU+RQakwu9RkHJC6TELI5XmsnrGLlc
+      jpPHj6I1asjkHPQeO4ZKLZFVGYnMenG3NVJv0hNU23AI0qUpQDwaxNXQhpyTsdidRJMZmlrb
+      Mek1aGrq0Dk01DqtKFIajzeA1Sig0zlQCyCKKUQxc8V2xCsNq8WKGBVpaFkDCoT8Xgw2Kw6D
+      iv5xP+2tTS/bS52qWA6LxYJlQzeocqBYUVFPPBJEVuuoMRux19QiZ7N0NjTjHR+4PCN4wUha
+      aixdKB2Ke8tXUgGuhhF+JTRWU/ZS6V9pm1YqfzUcHleKa+UwWUr3sozgBSNpqbF0ofRXgwF8
+      NXi4EhqrKXup9K+0Ta8GuayEa8XXUrpX7AUaHepnaIlRmI6HOXvuHP5w/ErJAzDU38foxPRV
+      odXfd5JQKEh2/m6g11c00EOhMIG5mWVtKaKAKJ7Hfy3FOdHbx/DAINP+EKdOncLrPb/RPz4y
+      wODI+OoZLuQ429fH1KyXuckhwqnzx20H+88QjFy8z8sNQTkr8uKLJ8lIhdXzdB5I8QC9ZwcI
+      RhIXz7wqpDl5/AzB6CI9r9cHQDgUwjM9wfjU7LJSBSmz6vZc8RqTy+XQmC0VaaFokk2bNzMz
+      NQUu25VWgdVZSy6X5fmnHsNW24RWq6dlXSdW/aXrby6XIxMJMjXnxR+IsXFdM/1netGYXDTV
+      WvBGQpw4/AwFsxshm8DpdqNRy8h5A23tjcsJKhK5PMh5kDIxEmKOTS4Xp44dwtq0gXXNdcvq
+      V+kNnDl5nGw2S1YwkwtOsXP/3dgNy9sjJ4PYWzZSiHvweAPoUipc3SsfYTYY9OTCU0xkapib
+      iWBRi2C2IudktGQRTEZSkSwKIht7dmMxaBH0Jtz1rYycOUqsYObm3VsvuU8XuyLPms4u/H1H
+      eeFQkI6uHuxGgZaWlsukKJPLyQRDQbxjfcQKZppdGnpPBnHVuLAZDMRjaZ558hHcDQ0ktG7c
+      +jRyOklE5cJp0TBy6iXqWtoJpyRuu3nPshouSQGyoojGZAJAFIu3clrbOrBYrYiiiCiKCIJA
+      Y0MdQ/1nsNU2IWYkRFHEZDIhiuJl7S2zYhyt2UXb2vXobXXks6nLGvwAHRs2oVdkhEwOi9mG
+      3W5DyUsYbFbkfB6dXkdtazuK1ozN1ExBSqE2usiLCRKJBFkZKlogGNm8eROCLJISk3R2daLT
+      6XA3tSKY9Mvqb2pdi9VqJZGoIZ2MkVEEZIeBfDpFqrD8ILxgayQ3PAg6Ix1dW1EucHKnUFDQ
+      2uuJ+f3YLHoEwYkGCY3TgaaQQWOy0uw2k4oHK87G2x1GjPpWbIq2JMfLkZNgNDE3Osia9ZtQ
+      jF7aG5zEV762vUro2LSlG1kWyZm02BQtNpMGKRfAarUgZ+PotDraO7owm800O5tIBT243PWY
+      RIV0Ok1H10ZMVgeW9MrnkCqM4ETi/EvXwiAu/7887WLpCyhPf7mxlK+Xm8Zqyl4q/Stt00rl
+      r0Y/XSmuFQ9L6VasABfT+vLfF/5fWuZ86aut41rjatR/JTRWU/ZS6V9pm1Yq/0rL6VryUE63
+      ehy6iusaVQWo4rpG9WjmZWJgYIBMJsPw8DD33ntv9ZTraxQVUksloiSzBYR8mpQsoJXTCGYn
+      7prq6ZalaGtr48CBAzgcDgThKr7GoIqXFRUKYLY6iCe9pMUUitaMrNYiiwkKThuyLJeONCz8
+      X552sfQFvJKX65fydSU0+vv7iUajCIJANptd1QqwmvovlccrbdNK5a9GP10prhUPS+lWSC0R
+      DeLx+GhuriWayKKQRWNyoVarEQShJOSF/8vTLpZeqvAV3Cos5etKaHR3d7N582aGhobQarWr
+      WgVWU/+l8nilbVqp/NXopyvFteJhKd1KN6ijll27ih9Ha/jVOcF8TRAMBhkZGWF2dpaurq7q
+      Nug1iqrldplobW2ltbX1lWajiitE1Q16BYj95H5iP7n/lWajiitAVQGquK5RVYAqrmtUFaCK
+      6xpVBajiukZVAaq4rlFVgCquayw7CxROZBDkNMmcCk0hjcbkZE1zNSpWxa8mVjwLJKu0GHUK
+      qKxQkCgUCtWzQCvQKBSKF69XS7N6Fmj1eMXOAgWDERrcDtKSCo2cRmOungU6Hw21uriDXC3N
+      6lmg1eMVOwvU46i96pVWUcWrFVUjuIrrGlUFqOK6RlUBqriuUVWAKq5rVBWgiusaVQWo4rpG
+      VQGquK6xYqQhEQ0STuWx61VozE4sRt3LzVcVVbwsWFEBPJ45nO5WoskoSkLE1NZWPQqxAo3q
+      UYhrh2vFw8LLzIaHh9m5c+fKCuByuZiansakKaA1O6tHIc5Do3oU4trhWvGg0+lIpVKsXbsW
+      p9O5sgLUNTRT19B81SuvoopXGrIsMz4+jtlsRqfT/eq8FkVRFPx+P/l8nlQqxYYNG15plq5b
+      pNNpZFnGYrFcPPPLDK1Wy9ve9ja0Wi2KovxqKcDo6Chr1qwhl1v5ayBVXHvk83kefvhh0uk0
+      +/btY+PGjSvme+qpp4jH47jdbm688caXlUfNqVMogOWWW149CqAoCqdPn6a7u5tYLEZt7aWd
+      Si0UCgSDQRobG5cZT4VCgUzmPB+5WwVGR0epq6sjk8lgNBovm85q4ff7GRoaIpfLsX///pKt
+      8VqARqNh48aNtLW1EQqFzpuvpqYGo9H4inyJRg4ES/+/ahRAlmUikQiHDh1Cp9NdsgIIgkBP
+      Tw+yLON0OoHiwH/66aex2+3kcjl6enoui7fJyUmSySRTU1Ps37//smhcCuLxOE6nk0QiQaFQ
+      uGoKIMsyTz75JA6Hg6amJtasWXNV6JajUCgwOjpKLpcjl8uxbt26FfOJoojZbGZqaopt27Zd
+      dT5Wi1eNAgiCwKZNm8jn8xf8Vtn5oFKpMDnq6Rvzc/uuNqDopdmzZw9Go5Hx8Uv4NOkSbN++
+      HUmSSm7Paw2n08n09DSTk5Ps2LHjqnlD1Go1drsdRVHQ65d/wO9q1XHvvfdeNN/mzZux2WzX
+      RAkvBZc9tZw4cYLjx4+TTCaJxWIcO3aMVX50fkUs7OEVRbls/68/kuKpE4sDvVAocODAAU6d
+      OkUwGCzxPTAwcF5eI5EIg4ODFd/6HRkZAUCSzv/JQ0VRiEajvPjii6WPAkqSxOOPP04sFltW
+      x+zsLMPDwyvSMhqNrFmzhptuumnVL90tFAooikIymbwgj6IootVqGR0dXVZeFMVSzGY19M6H
+      M2N+PvXNpy6Yx2az8alvPoXDcXnfnjhx4gQHDx7k3LlzF8x3sb6+4NQyNnyu4lL8wMAAoVCI
+      jo4OEokEyWQSr9fLU089hc1mY/369fh8PvR6PQ899BChUIj77rtvRdqiKGIwGErLu1qtZuuO
+      3fgjKbZsWf5d2UKhwMGDB9HpdHR1dVFXV7csz1IsnY0SiQT5fJ7W1laGhobo6upaVubIkSN4
+      vV42bNhAw/wrsvfu3QtAnSFPIjYL1uWGnSzLPPHEE0SjURwOBxs2bEBRFNxuN4FAAJVKhUpV
+      /DjpuXPn6O/vp6Wlhc7O5d/8NZlMHPMcobthy7LZf2m/lfNdKBSYnp7mvvvuW3HVWFgRLRbL
+      slX2wIEDSJKEXq9n7969K9Lz+XycPn2a2dlZ3vve9150a3YxW6Zv3H9BuV6ofCKRIJ1Ok0ql
+      Smm9vb0kk0lCoRBvf/vbL9jXmf5+Mp/tv7ACaI3FS/GlQpkMDQ0NmEwm3rBvB7HZQRwd61m7
+      di0qlYpUKlXau95888309vZisViIxWL09/fjcrmwWq3MzMwwNDTEfffdV1qKz4z56Rv30zfm
+      53O/fxsAyXQOfyTFuiYniqLgcDjQarWEw+GLKsCB4+NsWVeP22kG4FPffIq7tjm5od2GYDav
+      OPgB7rzzTiRJQqvVLvtN6n8QKZGAluUKoNFouO+++5BluTT4dDod27dvByA3MUHaYACrlZtu
+      uom9e/decHZ/dvQp6iz11FnqAfB4PCv22wL27NnD8PAwGzduvOCWySQESE//EHvbhyrSt23b
+      hiRJJSN/JXput5vOzk5sNtuq7JLV2DIXkuuFyt9yyy3kp4+had1dStu+fTunTp2ivr6+lHax
+      vr5gK4SChN5U/NJ7Mp3DVt9GR0cH8sxL5Hq/T/aZLzL1rt9CEAQSP/0ZsZ/cz5Mjgzwz8hR9
+      kVM0bSnOoGq1mra2NtxuN263m+7ubu65556KQbYw+AHGPBGO9M/w8AtD/NvPe4u8CAIbNm3B
+      XNNy3sFbjqdOjOOPpCrSCoFBss98sfQs+wfIHPwC2cP/XJEv89UdZA5+Adk/UEqTzj5AIT4L
+      gO+zf71indlz5wj97eeL/fXMM+QDgdJvkf/4HrnJydLzv514kbFI0Uvy9Rdf4KFzfTw/McZo
+      OMhS/PXjn16x3/q9ffR7+4Cif7ujbhar0rsib+EX7wRAkVPI4ihS/DSpya+TTxW3QvX19TQ3
+      N5OcCDN1YoTPfPc5uru7OTWZ4MDx4rbyW4+c4PRsFsXazJgnUvrzlfXzgePjpW1oWm2jtqmd
+      tV09FUqZTOcY80SAC8u1XR9h8+bN3HDDDRXlC7FZCrFZ0j/53Yr8KpWKzdoJOhsW4w/S2QdQ
+      p3zIMy8h/ndlfriED2VPzAYY9Saod1poz59DL4VJi2mY1GPYtQs5ECCjVnHcYUVOD5e5C1Xs
+      cNRRKDhJJyCo0mE2FBtjNujwR0XMBg3+SIpURgJUQOX+fG2jE1BIpSX80RT1Tgv1DhP+SAp/
+      NIU/KnLbjvbSc73Tgj+SpN5hrnhea4rTUhhHic8hdNxa7MzAQOlZpbeiZBPIo0+jsjWitjWj
+      sjWhxOcoxGcAyGpdFE4HS21WmU3F7Y2x6M6TJieRg0GE2lq0bUVjXEmL5P0BQg31BCxmnCYT
+      EVGk0VqcXPoDPpyGYn8ZUKHWxAgkfQDUmusZ8J9lV0txG2bSmXlu7Gl2tewlkPKjyqvZVmtA
+      JZiRs8Uygt69TH5S9DC6mjciZ30Ucj6UnB+Vrp50vg2VUotKpSLqCRclZlBzyCuyb1NTaRKp
+      d1oYn4ssHT6Agtmgpd5p5ug5D1va6/BHi2X8UZEt7XWkMrnS7/UOU0ku/mixDoDxuWjFs1qR
+      aZz675KcVHprhRzUtmbkmZdKckJvRYUKOXCu+AwocQ9K2VhSoSI6ZVgcm6olCnAhJBIJzGYz
+      +UwWUc5jM5tJpVJYrVZkWS5tgaxWaykvFGf/csWyWq0V3hS1Wn3B54W0hTpWU+Z8z6lUCrPZ
+      fNnlgVIbC4UCyXiEpCjR0NQA58mfS6fRms2oVll/Of3K8hKhQJh0VqJ5TQuq8+S/UB8WCgUK
+      +TwqjQbhAn2yjAcxjdZiLtV5Kf0mpkQMRsMV9fPlyGmZHObbIC4Zm5fkBSrfg6nVasR0GoBk
+      PMLp02eIxhc9BnMeD0NnXmQull2RjlqtJp/JIpc9F+nLZDP5sjSFc319hKKJsjwwOXqKX/7i
+      eaQyIzo+N82RY4cYmQyX8kZCAWZmZoglxYo2qNVqspls6fmFx3/BMy+dOu/vC8/lbfDMziLL
+      MsqF2qRSL6u3vA8WnsvrYsXyGnI5CR1KBf0L9en0xDg+fxDK6izk5YrnlfpkGQ8r8KxWK6TF
+      XNlznkd/foDRkdGKMlOTo/iC4QoaK8lpafnztUuWMng8Hjweb0U/LO33bCpFfoU2lNME+dIU
+      IB4JcubsOfKKgjx/7BkgFIqwuacHnWaRnFWvJpVVLmiQSUvcnYqiFP/Klq2gf46spKBdQsdi
+      cSGYIZtMl9LMTgdiPIPOUFmPb26GUCRekSYm4wQj0dJz9+7dbFrbVuJDlvPky+/Kg7MAACAA
+      SURBVI5xx0Jhkpl0BQ2H3cRg/xgXig7oTEYu9+ths5PjjIxPztNXSCTiFLTnO8CllI4QL/Se
+      0WQgL0ml53AohFojoDpPfSu1cUHmclmaUpDx+7xkcuVH3tVs2bKWWndTRfnA+AzeaPnWScFc
+      W0+dw01L86ILVFE0K5YHyOcyeH3+Uj/n0inGxiYX+11RkORFXtLpNFq9vjS4oyE/M17/im2+
+      JAVQlAJavYGCJOH1epDyRRZMeg3jU56KsHZOhlw2DcrKw2PoXB+HnnuBchWIeSYYGh/DF1kU
+      Qm19I2bjco9MPC5S53Aw7ZkupaXCYdrWr6H/7KKPu6bOjt+XQEpX+rNHR0bQ6RYv+vgDAZR5
+      XmVJwuf1kpUWuTt95AjDM54KGjqTg5bmmtKAGuzvIxRPoKIotKNHjnDi6DEufAgjwwvPHubR
+      hx9l6VppNBpA0MwrkEIsGiMeiVQMxkUoeKcnGRpbNLSTiQBHnzvOgh8vk4gyNefnfHveldq4
+      IPNyJY7PTeBPyujL5JKIRQmHw0TilXZk26ZOGl3lUX0Fn2cWRaWQLJu8JClHJBRCzCzfMYyN
+      jqLWalEDWr2JAhJiJFFqx/DgOUZHxkr9EvLOlNopZUTiqQSJZKUUIjOTPP7ko5emAH5/CEGR
+      Uet0xCIR8vlildFkmnQyWpE3n5doXb8Ju2Hl+c9mc3DrW95EuTNPazDjm55Gqyuf4/KcOzvM
+      1PR0RfnaOicZqcDGslOfZlctqUiCPXu2ltKi4SQ92zfhXvLZy3xeolBm/gQnJxmYKNah0emI
+      xyKlFco3O03bls20uStpxELTTE0ESx1f67Qx5w2iABqdgfXtrbjb17JkQVoCA3VuOztv2sfS
+      e3ehcBQlm54fwAL1dQamxvwrrjhSJsPkrJeaGue8QsroDTW0d7awMEwL55mMFtC9dzd7N2+u
+      SFuQeflElZfyxVW6TJMcLgue2QjZVOVKa9BrCQTDZSkKKo0Ovz+IybDY4njUTzIN4eDymTqf
+      z5cCl/lcBqPJyeadm0sroc1sJC1TUlKbw0nE70cGtAYTWTGHRsmVtUEmJUnU1zatXgGkTAYp
+      L5HMyUxMeEjLauprnWTEJCqlQHSJhpmNRkQxXTHIyqETFA49d4Ty2Kpao6GlrR2jtlxpVPRs
+      34rTbqson0xnkNPpitlQjMdRGzSkU4uziMNlJRKK4fP6KsrXOBzEkkVvhVIosP2mm+hqK371
+      cXxkiExapqa+OHPVud3IuTSRWOXspje62NDTUVLiaDLEzMhMqaONJhNz01PMzFXWXYkcg+fG
+      SSXFiq2JlBGRpBzJnIxAcSaua2hn3aa2ZYoy3020tq1BZzDOC1VAr9fgqHGV6Gq0KsYGxs+7
+      ZUslEwTKDrBJGbEk83KJ6F1unHqBcoaDwSSbNrVjtS9ua5LxCOk81NeUR3sFzAL07O4hFF50
+      n9bWt9Dc6Krw4S+gudmNz1fkS6MzkEkmiIRCpX6OpdK0tTRW9J/Zai3xbNIL+MMRErHFXYBa
+      a6Curv7SVoBoLElTQx12qxmn3UI4GsdgsqAupIgmKpeueCyGkE8SSq28YIcTMTKxZNkkIhNJ
+      iGjIk84uqkUiFiYcjqI3lp8alDHozLR2tFUIRjCZcdlqcTnLT2wKGA06mporL/iI8XipnuHh
+      ESLRGL65OQBsNjsup51IuLiq+b0e4pkCDbXOChoGrYbCvFEK4HC2sq7TXeIplRJxumpoalzu
+      llzAxNgUW7ZvpqmpsSJdazChVqtoaqhDBchSjqA/SCyRXHELk8+miSVF0skkBYqDd2bWRzae
+      QKIYSV+6ZSvH6OA5/MEw3jlvRfqCzBfLKITDITQaAVle5CTs9yIrKjLpxYlQrzdhMi1f/2z1
+      bkKzQdxue1mqTDqdRRTTy/In0xmkVAoZkLIierMZg9lSWtl0Oi3SvK2TigboGxypGENWhwuT
+      Xo/NvhAfELAbdUxNjq5eAbQGA11dXaRiUWpr7BRyGaKxONGgD621iR3dZaf+CnlUWi2xjIZG
+      +8oX6i1GA6668oEh0NTSwpo1HdS5zKXUOV8cvUFFNBSsyBsJeMnJlXOZLMYIxtNLwggK6XR6
+      mVtQMFtodRdn+JamemTUuBuLg7Cm3g2FHJFo8QxPQ0s7W7s34LAvCiwyM87o9Bxzs97SKqbI
+      WTS6MjsolyO7ZJVaiga3m1QituLet7GxvmLmkyQJrZJnpZNSOqMFrZLDFwihUFSghjoLc74o
+      aqCQz5JMiEiFwooK5HC6qKmppbamppSmNZhKMl8sIxIMZBgeGkFb5vTY0L2ZtevWsX7d4uE2
+      r89HOpkkGi0/C6Uw0NeH3zdLJLGoLOMj49iddjTa5SZ+PivT3tWBhuJqnctJpGIxJIoKodEZ
+      Sy5yrc5IS3MzDmtRDuloEE8gSMfmrRUrp1qjoaG55dJOgypyFo2+SDgej5PXGLHX1CGKk3iC
+      MZwLGqYSqG9swaKZxBPNYl+hFr3RjEafrWAg5p1kPJxjw7p2mN8GuWudaEwOFHnxkkvEM0dL
+      d8+SvXUGsWBje3flLA0Qi8bQB4M01heFGw0FKKAmMz/oTFYH9WoVseTirCHG46SNi+tLf38/
+      MgJr24sC1lkc1LoA1KUZPxKJkctIxRk4K6IIWkzG8/lcipiZGkcwWLCal98zKJ/5BMBZU4dL
+      Lqw4g6vUGjZs3IKq7MfijJ8rhqsKCqCwZu06lrsUwFVXRzrrQVEq1bVc5kWY2bmn0k4oosDE
+      8BBp9GzqWocasJgMJHM6XJbydVokkysgaI0kQnHcjmK7C4qCSi2Qz1ZeZsqlE6SyEgVVGoWi
+      oq9bZ4GF+Vavx6jXl2Z8tUZDPBpDq1KTBzJiFpPNhG/Gg8vesUAVXzjN2uaaS3SDxv2cPHaG
+      aDKJRm9ErRSIhfzMheI0N5UZiCoViqJgrW+l1rx89Mc8U3hCYeqaWioYMNkcWPVqpLLJ2u5y
+      4pueoqAsSjaXTjI2NsbY2GTZ7CozOTbG2NgYyfRiJybjcQwWK0LZwPAHQqzfsIFkfNE9N36u
+      n1C8GCsQk3FyGj0G9eK8pxMUMtkcufllX28yotPr0Ol1RQVQCgiCgMlmRwBUKjUajYZUKMyF
+      7qet39SDw7x8mxD3ziArGnR22/yAV0CWCCZSK7pV1YLAxEgvTzzyLFlgbnCYcDBKy5ZuNBRn
+      c6fDRj6/MjeylCOeiGMwmSvSF2S+uOoUGD1zmvHpUWa8iwZvNBwkns5Ta7OUVgtnbT2KGCOU
+      EMsomtm5dw979uxmfcfiDqCjswudVkdDfeU9EDHox9WyDiW7uJJOjo0y5y06A2JzcyTEDP5Q
+      GJniStnUUIfGbEYLOJuaaXA1sKGztYyqDo0gMTETvgQjOJtBVlno3NJBjcVCXY0Li8WMo7aB
+      rVu6cVjLOk6WmJ4Y4bFfPouywnSlMVlx2Bzk04kKgywnppGRSYvlQlJIpVLIZdsdd0cn3evW
+      0dhYXzYYzNzwul2sW7eu4j1Gs54geo1MQ9OiDdDZ2cHs1BRNre3zbctS37aOOkexDSaLjfq6
+      Gqxld1qlgoBRSDExVWmMhQIB8kBgbBRbUw2RaA5h/veGhgY279lJ5ZCqRNA/zdi4p6J9AEab
+      jVQmT3tz0VDL59IEw1HSKfG8Rmxjy/qSUV63thWLzULS66/wl0dCoRWNckUpEIvGiEYXvXlS
+      VizJfNFbp6K5vQU5W8BsWUx1uBwIKjXhWKxCQcttrQVEZmc4PXCKmbnyrVGOF547zNjETEVe
+      R+s6VIkA1rqG+S2Mgk6vJZMurghGm5mslMeoL8ZHUtEAA6PjxOOpeUWU6X3peIWbFAooOQlB
+      ewmR4Hw2SzZfwG61FjUvHsNoNJERkwye6eXIqcWDYwhanA4nr9+/f4lHpwizw4lFJ5CXK/ej
+      +XweQW/FYSt3jiqoBS2CsMhqOh7i6Eu9nOw9fcH9NYC7voa6hmbk/KIQVIIWs1Ff2kpo9XoK
+      ksTY+EQpTyIWxzB/ZkTKZqmtr6G2eSMb1i7OULV1juJyDjhbW8kn8rQ2O0oDLhGLMDU5SUY6
+      P5e19c00uB3L7jFrTTZa6uyg0SIAgtaA2WTAbDGfN5A1OT6JXq+lQFEBzUY9uWya3Hz94XAE
+      s8W6olGu1ZvIR6IkywJK+Wy6QuZFKMSTaUKBAIWyQGE0HEVv0GN32CvoCqZFW2sB1lonbmcD
+      Dmf51krL9p2baWlZ+jYSFSazicVAroKcV9AbjKgAndlJU72LDRs6i3GCJTYACNQ4LOjMlrLB
+      rsblsiHJ+dUrgM5orDCyMokoUx4fBpMFd+s6tqxvrcivosCxF54jmlr5EklKTDA9Pl0xmxnM
+      Rgq5HIVCeSQ4BGqZfNkMabTVsKtnI20dHReNspZe1rXECFYUBf/cBIF5V1wsEsRqX7QfcpkE
+      41PFoJBWryeXk2lcsjyXu2IVpUA+n6+IxGbSaXRGM8nY0kNkFRySSmaZm5lZrsxlM3YmESWv
+      1mE9rwLI6LVaJsanSnSW1r80MrwUzevbK4JWSw3rItQI2TSSSiKaWFRah6sGlVIgu2QPbzDo
+      l0X8k/E4Hl8AQV3ekiyzM4GVb91VrFxqXE4rszOzpbEjUKD3RC8zcz7UGg06rRajyVTqp7qG
+      OuTcEvlr9Og1htUrwIKRtW/vDjRAIBxHpcw3rCCRTFW6r/RGC01OE0lp5e7Oy3q6N66pEIYY
+      SzI2eoZZ36K/vba+hnyugHfeRbmAidERMpnMRVeAlSAmiwLIyULJ4yQV1BRyi21IBsLkVEop
+      f9A/x6mzQxV00rEE7vZWBIozqJQO0H9ypLRfzqZTiOkMzgveb1YhZrLU1dcsU2afZxa1Vk9j
+      oxujzYXTYqhQsEoIGExm9uzbVTJyl9YfCUfQaLXnXUE0Oh1KYbFHl8p8ASaHk+bm9TTVl7/2
+      RCEcTaDTVFKPRKPLjrGYbXacFgOZbLliaGlpbSCbrYwn5XMZxqdmkNIZ6hvdSFmRQCRBY6Mb
+      FcVtmj8co6GhgcZGd2nr6bJZS/200mSr02pJJWOrVwC1oGZmcoz+vnNIwKYtPfRsKp7fjs6N
+      cvjUyGLmTISIpKNr+z5aHCu7QQ2CzPCMt0LoJpsJl70GU5lRGA3HUatlGpsrb4mtpNUrwWy1
+      LmvkSnv87u5uXM7FFaB50xZu7NlUyq/XG1ErlTOZzVmDUa8rDSibrQ5rnbU0AGVFXfH7yhCw
+      GNQUVMv7yeVuYl1bS6mP/H4/Go3mvPRy2QyzM56yFaByMNmsJqanZ887aYTD4YpntSBUyHwB
+      spQmI+XnPUuL0KgU1JrKizpmg7a0kpb4TCbxzM2Syiw5C1YooEj5iro0OgOtTQ3ordaiMa83
+      oRck5mYWI/Dl583S0SADQwPEpcXIsJwXaGhyVdSlUhUQM5dwGE7KZBCzOVRqNSgKaiWPLxgm
+      lxHROprY3d2+mFnOzXtpxkjnVu5ug9mKjkKFMKScTE7OoyoL2VvtDjZ1b8Y/N1tRfiWtXgnJ
+      WAyfz0sqXeln9/t8pT2+mIzjCwRRFvwtioJGreDxLcYe7HYrNnvl/dV0RixtKaSMyODIFC1N
+      9aWZR1DlS0cjzg+JyWl/hUdqAblEiF8+/UJpQJQHfFaCxWSoOL9U11BHOFAc1FJGZHzKS2PD
+      +aOfQj7PbNkrQ6SMWJJ5udKpVBoEJUs8Wb7dUaHRChgMlR6t4PRsaSVdgJzPU9fcssQ+zHPi
+      pdP4I5Flblq/34+xjK7eaEbQCiWFUMkS8VicApVuz4WxoTfo0WrVxMsiwXGvj1Qmsvo4gNZg
+      QK0UyGYlQpEIUiJOVtGi1RloaVnD8EjZCmB287pd1tJjYnmMB1HMsOuGvWUMyMQzedpa11YY
+      wYKgAQG6Nqxf7KpcBq3ewYZu80U1OBwK4qxzY9IvdquUzaLVqJiZ81PrcmCy2DBZFo9aJCIh
+      wtEYat3iCpFJZ5CQgcV2adQCsXjRk6U1mNi8uXg+pUBx9snmRWZGAmze3n0BW0VL9+YODJbl
+      8YuklCMfX4z8GnQq+s6O0dDavCK9UDROJi0hU4yQl8cRdAYTGzd0EElkzruC1DXUkyiLrmgN
+      ppLMyycaQachl8ljbFxctWamvdTW1y/GguaxprubXKGSW61eIB0qYGxYlH7QH2HPzXswmZe+
+      TW7RtqltqCcdDXBueBKj0VZ26tVERi7GY5xNzTgBuXZxIjDo9Yx6x2nt6ipeaQWSqFnjbln9
+      CqAU8hiMJiSVGh0qjGYLep0Wlbro7950njeAnY9WOpPm+LHeshUgg5SXkfMygbnoBUpDYHwC
+      XyJBLnf+tzQswFlTg0YNOt2iUmn1ejZt2YHbaV2xjIKC0WjGoC8K2OeZJptXMJoWg1VKQUZn
+      MCLoil4aOZ9jbGQETzCEGpCyaTQaB1v3dl9klpHJpHOkl2xXpGwarcZM964t83EGBa3RgbvO
+      tuIAlsQEdY0t6C3FrYKUTROdC+HuXFtSlrQonjcyPT01RbYAUnrxfE6lzBeQY2jcT0ONkURZ
+      JFdQKeRyOeJJsYJuWkyXAo5FpDjVN4PFIFScE1MBPs8MCXHpbCnQ3tnFxrbm4uG2JV6ektsz
+      Me/2VAp4PB7ERKLYTqWAxzOHvb6+TA4ioYCIzqBa/QrgH/OS0xXQa3UERBElGcdou7xvCvvH
+      xkhnJcwWMxmY95ProFCgADhcF35bmM3dSK3DvmJEcynqys6XJ+a9FmIyTjwpkj/P/iktpggG
+      g7jqiy65nJRHU8gj6BcVIDY7gexoRRuJkgdCo5NYrDaQZdKARW9El8tj7Vp7QU9VKBDGYreh
+      1lS2RrtQfm2xfHhqhLmMQqagKgZ8ltDJphLMxSWkZFHwKpUKndGAZn77shCZ1mhX3vca9RqS
+      maKPfQH+sTESWQm9VkeKBTmpsFst5BEw6xcpNba0LiVJMh5BZzSjksu3QAJt69bR2LRkxVOp
+      0Go0FJbEQ/K5DMFwlFwmhwVQzXt50Bbd2AsKIc+7egNjo+ganAwMBNizy0lgbJTa9kbGB8Jl
+      fWZi554txWpXeyUyHo0iZjKAGovNgsVkQhTFijsAC88rpZeqNplKjQI19RfYk15tLOXrymgo
+      +Dwe1HozdTWOZW0qrNDGC9W/8DqVhTxL6akKEnP+KDarCYvZvAI/RSMSlbriOMRSJKNRDA5H
+      aTCsxNP5eLhcOS207UII+OYw2lxYjPrz8rUSLtbvS58zS+iuWgGqqOJXEa+dt65WUcU1QFUB
+      qriuUVWAKq5rLFOA0cEzHDz4DJ7AhV2Rq4GcjfPoIw/hjYkcfe4gB595Fn9kFW9+VjKc6O1f
+      dT1jfUeZiy+6RI8ffY5nnz1EaiHUnk9y4vTQsnKnTpxY0SUY8k1z8OBBEtkLH7TI55K81Ht2
+      1XyuFiePvUBUlAj5pjl6/Mx58505chTxvL9Wou/EYY729s/L9yBnhyYuWsbvm+PwvNxmfZVR
+      4qB3mod+8cRFA5HRuREGJ5e/7W4ByVRqxfTIzCDj/ou/mPf40aNIgBgNcPDgQQ4ePMjwhOei
+      5RYgfOYzn/lMeULe38fzkwUe+uE3uPV1N3B6cByjWmJ0NoBRLTE04aXOYeSlk2dxWnVMTs+Q
+      leG//uM7rOncgtmgZejsKSSNiSe//xVUHfvZtb6Bh771fW5977v40t98ltZ6JzkZQokM6cgc
+      x3tPozcYODc8QXNjPXI+jzB/MX1ycpb6+uL7IkcHzpAXzPinh4llVRhUOU4PTpCZ6WMwKlDv
+      cmDUaTj00Ldo3XsX//T3X6JrbTORpISrxkk+GWZ4JohFk2dodBZ7rYvY9GkePnCSuJjEoKRJ
+      KwZqa1z84Ec/5I37bwFguP8Uklyg9+wQ2nyKTEFDf99ZGlvcPProU+zauXVZx14JMp4BPvuN
+      +3n7PW9heuQ0YbFAeHYWnVFgenqWjJRnamqOmbP9JHVgt7oIzIwSTUMiFiQSieFw2In6Zxme
+      CaLOefnGd5/gt37nXgr+Pg5Nq4mfeZTZghONOs/U6DROm55DLxwmUxCYHRvC5Khldmaaow89
+      yW3vezcP/ev/Ra7bhOgbBb2Jr33p77njbe9gZqQfs8uNd2KQpAQ/+t53cTc2MzA6RXNjPUps
+      gocOjeF2Ozh34kUMJjNz4SQuuwUKWf70Y5/gxjveipCNc+z0IHU2PSfOjtLgrsNgtDAzcpbT
+      Z4dRtFqCM5NYXHVMDvWRF8xkYj5+8uDP2fO6m5GSaRotGZ4dzbJ9nRvvzBh5wUzIM0ooJZNK
+      xvDOTpHP5winJOyWoidoWRxAEARGBk7ylnveyX//6IdEQmGG62ug+QZePHKIjZ3ruf/HhxAT
+      IebG60jXbCX+zCOYnHbqHCZmzxxkJNXEqYf/hRs31NM4/0ZejSDz/NNPIWbVTA8eo/WWX+ep
+      nz2HWgmQy+UwqbP4swuvrEvzi0cPkknN4VQZaN6yCf1cHw8c7EWjOsG6OiMnhx5nbVMtmzs7
+      ERWwWDX89GeP8oH3vB1BI3Di2DHue9d7+fF//4j77nsLjz92GikdoMkgMmyw4y80ICcmedfr
+      O6jt2saJZx/AcMMeevasA5UK8/xd1sjYizx2eBQ1efLJCM5bb2Hs2MOIYpJw4drsIK22Gj7w
+      O3fzlW/8gNtv3MyRZ5+mRikgZpsYE9uY7n0MrVZFp9OJoFb4xj//PeQNyBoVOkXkrne8G5C5
+      /8EnaDKI5Pffxdr2TrTz8h3sO4kl4eWddxt47JEjqGQ/fcfVrGkwMRdyMNg/Rm1LG4pKj0YQ
+      QK3hzttv4Dv3fxtH/VrU9NG4di3JoZfoDcZ44dARnOv20uqMYnLa8Yz1LcoSUFQC3/7Wt1hX
+      Y8Jst2F0F9/kceSXP2fz1vV84wePctsGPZ64GnXKiz9rxCWOMOPcyuALZ8llQoyN97O/p437
+      7x9mLpxAozqMUaWn1lqsx15bS3pmCgBLwc/35sfKereZlwbGqTHruXNfJ4+NiKSmT/CRj3wY
+      WGELNDExicbo5I5bb0KjkrG1rCcbC2KyWIjODDE1F8NoUJPW1WJRpQl6phiZmEaMBAkn0pjt
+      NZx98Tla121genJy/j30MuOTU6gFLSaVGltNLceOHUOWJBKzg/jiEpLaxOiJl4jmIR4OMjk1
+      yeT4DOGQB483gsZoIzQ7wa7dPZzuG0Et54gHZ+ifmmN2Zg6vZ46pmeJ5ofHxSRrau9m2zsn0
+      TBi9Ts3knJ9k1EOsYIRcEq3JQnx2lFBaYXJkjN94807OzOYwCCpC3inO9g/w9IEnODUawDs9
+      zu7de7jndZsYCkGtzYg/raPNrmZ4fHppF14xxscHSSlO3rqrmYlglnw6iiccYm7GTzTgYy4U
+      JuSZJIvC5LiXnh27SEa9bN25E8/MNK6aekBdaq86HuDMyGhJvgBrWtz4gmlC3mFiqRQNtRb+
+      4+fHsJPGos/x4M8epa2rg/HJEZ5/+il+/OQp3v0b98z3xTYGz5wmWVCYGPdzw837ePHpB5C1
+      VsRIEDEvlGSp1pmJBafp3ryVd/3Ou3j4yRfpcFvIJoI8N+Dn9//wE5z++bcJJmW8fS8SVcyM
+      nniJIW8Qry/G4OGHkXQ1BGanmfYG8YXj8+NgLxHfNMlkikS6uP0dGxtneHikbKzs5HTfOTSK
+      xJxnFl8wRsg3zfDY4pHxVzYOIKf45je+z+Ztm+jo3ofbcW2+WrIaPv7z33/MHe96L7Wmy32P
+      22sbj/z0B5hq1tDc1EJXZ/s1qeMXD/yIDTtuYX1bw8UzA6nAMN9/+Dib1rWxb/+NXIvRUQ2E
+      VXFdo+oGreK6RlUBqriuUVWAKq5rvGo+k3ohPPTTH2K0N7Fxw1oyuQJmbQG9xYmYSpPJxBkY
+      HGHvvpsw6ATsdvvFCVZxyTh34igTcZkdHY2ojTb8gRAWkx6jBiTBRDrio665nTmPF5fdxMmz
+      I2zbuIYnnj7EW+64lYLaSGRumqbWNcz6/GgFAbtJg6J34K555WT2mlAAgDVNNZwZmcWpzeGV
+      NcSCh3C27+H/t3cmv3Hc2R3/VFXve5O9cCeHEilTsixLdsaRYxkG5GgORgDfHGBiYOaUCZAg
+      t/wBQQ5BkHty8y0IECSHBMgGw8s4oGGYlixbFCVaIiVx7ebW3dVLdXUtObSHVolbN0WKze7f
+      5yKKrN/rV9X1/VXV7716D32LeDzK4oPv0T1dXH3tcM2wBfvzaHGJ9bLJotdA03TWqwrdUT9G
+      VcMjm9iSi8n/+V+Coxd44/VRgh6FnoERxsaW+PKL39LTm2bl8RNu3n5AOJ3E65dIekAOVk9U
+      AKdiFSifzxMNB8mXqmAZlPIbeENxvL4AZk2jkNuisLlGYvRl0tGdJQYFz08+nwfbJreZxRuI
+      sp4rMNib5vuvP4foCK+MD2GbBk8WV4knunC5ffQk4+QLecxKEdWQqalbhGNJXF4vsmJT3lrD
+      HU6T6tr9zbwXQcMC2KvNpaBxxDFsPRp/J7j1LxQtjziGrYeYjgQdjRCAoKNxrALl1jM8Xtmg
+      LxWjVJNwWxWUQHxHZ5RWQ1VVvv76a8bGxpibm+PatWvMzs6STCaZn59neHiYubk5hoeH6elp
+      LA+l07h16xamabK6usqFCxe4d+8e169fdzQSbEeeeQi2efJkod5tw7axZQnJsunr78eyrO0u
+      HK1GJpNhamqKcrnM5cuXSafr1Y9zudx2K9fp6WkkSeLatWuEw0e/6qAoyoHHxzRNFKU1k+3m
+      5ubweDxMT09vV2R4+eWX6e9/tlpze+G4ApjVIsFogmohS7Em4bJKuAJd219aq355XV1d+Hw+
+      RkdHefToEYlEgoWFBfL5PNVqlaGhIS5dusTDhw8xDGPf3sWdyuLiIolEAp/Px8TEBD/88AOR
+      SOTggaechpdBW3n2Oi2IY9h6nPqpMP+v/0bl1rdNjXGlUyT+4s+PxR+zWubB/GOSiSSrWwV6
+      4kEKFZORwZ0d0E8S7e5dsn/9N02NGfrnfzomb06OUy8AI5tFf7owbwPYh2NZdgAAC0BJREFU
+      2v69258H2eMnHg2QLxTBtFC1Ggo2lmVhWVbLxAKeLUHYCIaxW3/K082pF0CroRfWWFwrMdCT
+      oJxZA9tNqVqPANu23TK3QIbS/Ap4Oz47td8enTDeaIorr9S7ne/W9VzQWohAmKCjEQIQdDTO
+      OECtysLKGslYkFJNwmVWUIJxors0chYI2gGHAB7PPcBwh1nbrOd+I0vYpRVCQ0MttYLxNLu2
+      1TwAG/vIVzQaiQQLWg+HAIKhME+W1ol1B6nqMi6rjCvY2pHgw+TXS0htuaIhaB7HWZDuHyLd
+      P3RSvggELxzxENwCZDIZdF3n9u3b6LrO1NRUS95utiPiPqAF2NraQtd17ty5w/T0NG63m4GB
+      AZG6/QIQAmgBVldXt096VVUpl8tox5iuIfgJIYAjxqyWuX//LqY7Rq1UJBwPUNEsXrmwdx/l
+      d95558U5KHAgBHDk2AS7B1FMDckXpYBEOOBMhsvmSnzyzXxTVv/4+stH6qVIhqsjBHDEWDZo
+      xRz9A4PkCyqj0QAFzZkMt1Go8i+f32vK7p/84tUj9VMkw9Vx7JFl1ChXa/i9bgwLJNtEdnlw
+      HeJgdSpuX5Bz584BEArW2/Akn683t+AYcQhgceExNcmLbGpoNZDRUTxBzvxsGNu2DxV1PW4O
+      s1xoc7gI8n5IkiQiwacQhwBCoRD35xZJJ+O4FJAkNxI/nWTttDZ91PsiTv7TiUMA4WiM8XE/
+      Yb+bqikhWzqKN9hyL3M8zWFOPInWTOsQvHgcAnB7fHR76pmf9WowotCsoL0RT7eCjkYIQNDR
+      CAEIOhohAEFH036hvRPGqmk8Wd2kJ+pnLrPVsoWxBHV2CEDTNFyyRM0CyTaQ3T48LrFk2Ciy
+      24fXJVMslfYsjGVZZtN2jzoPR+QC1XEIQC/nufn9HL2JMFXDRsZAdvtFJLgBfhcJNqtllpeX
+      6O/vx65Vdy2MJcvNTyhHnYcjcoHqOPZodTWLoZWo2eH6F4rkiAQLDkbxBnjttdcAxAstpwCH
+      AIZGx+gdHAHbRDclZKuG7PFvz16t2ODtsJHgVtwXwYtnxzXN7XYDbtwAeF+0PwLBC0VMg4KO
+      RghA0NEIAQg6mvZb1+pAVFVlamqKUCjE8vIyFy9eZGZmhvfee++kXWt5xBWgDQiHw6RSKWzb
+      JpVKcefOHXK53Em7dSoQV4A2IJfLsba2xvnz51FVlatXr1IoFE7arVOBQwCFrXXuzS2Sjgcp
+      6hIuq4IrEOfMyMBJ+Xf6sG22cnlikSDLmU0SsQB5zSLVFT3SjzGz97CrKgAh4K0zQag+pssD
+      xsImAcDI/7S9HOlDjrZ3z9/D4BCA1+vBJStYioegz0aSIti20XIN3p6m1cqjW4bOVqFISc0j
+      mRZzmQo+bKxY+Ehzgaqf/S3W0lTD410//w3uN36z/X+RC1THmQuk14jG4ySi/u0GGa5gvKXf
+      CW618ui2ZZJZXiCdSpLLFQnHAqja0ecC6U1GwGVZdtgQuUB1nC/Fx7oJx378+SS8aQMUb4Cr
+      V6+etBuCBhGrQIKORghA0NG0302doKNZWloim83i9/txu92cOXNm3+3FFUDQVkxPT1Mul7lz
+      5w6lUunA7YUABG3F8PAwpVKJkZGRhgQgboEEbcW5c+e2q3M3gkMAam6d+eUNUhEf6lOR4MG+
+      1JE7KhDsxieffML4+DjT09O8++67B8aeCjN/1ZT9wNCf4gr+9FzgjAT7/ETDYWq2ic9lY8sB
+      MDVM0xSR4AMQjbLrfPXVVyQSCYADH0CfxbIsNjY2mJmZ4cqVKywuLjI8PLzvGEP9vqnPsE3n
+      bZFDAFubG2iaQTzsrUeCjfoVQDTKFjRCJpNhYWGBSCRCrVZrerxlWSSTSXw+H5OTk9y4ceMY
+      vHTibJTdN0T62D+yM1DXVnmSKxP3KxQqJi+NjZ60S8eOYRhUq1U0TTtUl0uXy/XCGwaKafCY
+      sBQFKmUqvhhBn3zkhbGavR21LMth4ziS4dLpNB988EHD2//f/Gd8MfdZw58/FB/hl1d+1fD2
+      u2FZpsMvIYBjwuVyoXh9xP3uHU3y2iUZ7t9n7rCiNv7ewR+9dIG+yE9p4RvldWYyd57Lh2aR
+      ZcVhQwjgmAhG4rwUiQPQdcK+HBcraoG5zY2Gt68YzT8XHDciECboaIQABB2NEICgo3E8A5QK
+      OTaLVVxmxREJHuoXi6OC9sQhgGAkRqG0goGC321jy0EkqyoiwQ0gIsGnkx25QGtrW6TTMSpP
+      vRMsIsGCduWZd4ITvBJLnJQvbcnWeoa8aJHUsohp8Bksy+Kjjz7iww8/ZHJycjuk39PTw9TU
+      FG+++SYTExMN3+4Uf2yRJGhNTlwAtm3z5ZdfUqvVuHjxIpOTk1y+fJn5+XkKhQJer5fXX3+d
+      aPRoC0vtxf3796lUKuTzec6ePcvHH3/M2NgYKysrjI+PMzs7i67rvPrqqw3Zc2GSr7ZeaylB
+      necSQDabJR6v1w26desWly5dYn19HYBQKISiKAQCgX1t2LZNKBSiUqlQKpXI5XIUi0Xi8Th9
+      fX1MT0/z6aef8v777z+Pqw0zMTHBwMAAhmGgaRrXr1+nWq0yOjpKKBQil8sRj8cbttc7MEwv
+      bOcCAfg9ChPD3U35ZZrP5A91jcGzv9sHO9TjsGH7fLibeHFkNx/SwdBOv/bBIyuO7bv83ZxL
+      TjQ8fjA6tOPz5OCFhscD2JLfYUOyG1zaMU3T8RBs2zYzMzOkUimi0ShffPEFiUSCmzdvMjAw
+      QLFYZHx8nPPnz+/vkG3z7bff0tfXh9/vZ35+nu7ubh4+fMjly5eRZZlsNsvo6O7ZlBv/8I+U
+      Pv9tI7uwjXtggN6//zvH7zJFlXJNb8qOT3HTG4k0vP2zx/AwPK+NdvDhKPdh3yvA3OwMSjDO
+      cP/uzd6y2SyqqjI0NISmaczOzqJpGpcuXeLu3bt89913ewrAquSwNucAuJgCjCVQ4UICIEvP
+      2TCoDwAY8oKxdBMAJX0ByXX0rZv+e/Yed7OrTY0ZiXXxZ7//Bw1vv9eXllvPoNkeepIHX1l2
+      2jB5eP8BvSNnCXjrf9M0DZ/Ph16t4vF6DxgPm2urVPHgd8vEIkG21Co+j4Lf79/Xh/XMMqbi
+      J53Y3e/f+XHwPtSxTZ3HS1mGhwZQCwUie0wuT48v5jcp1aQ9fdgLRVGoltX9BeAOhMDae1Z8
+      6623ttuD3rhxw+HY22+/ve8avbn0Ddp//GVTTgMEf/2fSLGhpse1MpWajV1ZZ0UyqFVNoiE/
+      kiTteQI8M5qNzQpSYJWugAtVlzD1EoZWxR2IMjzYe6CFqmFTKm2S2dok2dODahhEFIVFS2Zs
+      ZHDPcTVbopTbQCus4w2EqdkyteIG3nACWZapVvLYuok3GMSW3fT3JPf148njRVLJCItLGZYW
+      l/j5G1cOTFVYXl4i1NX7Yzl4ndWFNULd3RQLBRLdEQplAy86K2ubDI+OkXyqSLE3EN5fALJl
+      4Ao4lZXZKvHJzfkD3NrJL37vDF2R3WeUTqesblEq19A3spQMP71hSP3sYsPjB0fOUtU3mH/w
+      kJIcZaDLRaEMiWBj40uFLULdvQR9CktrKomuEImuMDcnv99XAOrWBrHUALpWYuXxLCU5iqQu
+      YwR1bKvGSMLDN7cfMj4+SkHjQAF4PQpzjxaRcOHz2CytqQwm9y/SGY1EWVlbA72IJ+imqNqU
+      9BU8ss3qpkWtapLqitGX7qbeH9RJQ88AlmVhmmb9fvyQArjxowBs265XUd6cx5j9r6btuF/9
+      JZIvum2nMjWF/uhxUzaUSITQjT8E2LZze2WZtVKxKTsxn5/XB+oniCRJovXqEWDVNHTbjc9z
+      mHt8HVWt/xsOhxoa8f+lEr+JBYAtYwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>

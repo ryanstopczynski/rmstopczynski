@@ -1,0 +1,13 @@
+Software/Tools
+
+anaconda==24.3.0
+spyder==5.5.1
+tableau==2023.2
+
+Packages/Libraries
+
+numpy==1.26.4
+pandas==2.1.4
+matplotlib==3.8.0
+sikit-learn==1.2.2
+seaborn==0.12.4
